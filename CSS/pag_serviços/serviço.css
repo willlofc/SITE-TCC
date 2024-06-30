@@ -1,0 +1,83 @@
+.serviço{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+}
+
+.serviço h3{
+    font-size: 50px;
+    color: #BB6363;
+}
+
+.serviço p{
+    width: 500px;
+    font-size: x-large;
+}
+
+.botão{ 
+    color: #BB6363;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    max-width: 400px;
+    width: 100%;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    transition: all 1s ease-in;
+    margin: 10px;
+    border: solid #BB6363 2px;
+    font-family: "Montserrat";
+    
+}
+
+.botão:hover{
+    color: #F57C64;
+    border: none;
+}
+
+.botão svg{
+    height: 40px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.botão rect{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 450, 0;
+    transition: all 0.5s linear;
+}
+
+.botão:hover rect{
+    stroke-width: 5;
+    stroke-dasharray: 20, 300;
+    stroke-dashoffset: 48;
+    stroke: #F57C64;
+    transition: all 2s cubic-bezier(0.22, 1, 0.25, 1);
+}
+
+.serviço img{
+    border-radius: 10px;
+    width: 400px;
+}
+
+.preço{
+    color: rgb(0, 184, 0);
+}
+
+@media(max-width: 760px){
+    .serviço{
+        flex-direction: column;
+    }
+    .serviço, .serviço p, .serviço img{
+        width: 100%;
+    }
+}

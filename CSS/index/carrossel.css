@@ -1,0 +1,32 @@
+.carrosselOut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    overflow: hidden;
+    padding-top: 100px;
+    width: 1200px;
+}
+
+.container {
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+    padding: 0px !important;
+
+}
+
+.container img{
+    max-width: 100%;    
+}
+
+@media(max-width:760px){
+    .carrosselOut{
+        display: flex;
+        width: 100%;
+        font-family: Montserrat;
+    }
+    .texto, .depoimento{
+        margin: 2rem;
+    }
+}

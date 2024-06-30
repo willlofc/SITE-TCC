@@ -1,0 +1,113 @@
+.histudo{
+    padding-top: 120px; 
+    width: 1200px;
+}
+
+.font1{
+    font-size: 226px;
+    text-align: center;
+    color: #f5b6b975;
+    font-family: "Quentin";
+}
+
+.font{
+    font-size: 80px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center ;
+    color: #BB6363;
+    margin-left: -217.5px;
+    left: 50%;
+    top: 210px;
+    font-family: "Montserrat";
+    position: absolute;
+}
+
+.fase{
+    font-size: 50px;
+    color: #BB6363;
+    font-family: "Montserrat";
+}
+
+.texto1{
+    font-size: larger;
+    padding: 20px;
+    text-align: justify;
+    font-family: "Montserrat";
+}
+
+.texto2{
+    font-size: larger;
+    padding: 20px;
+    text-align: justify;
+    font-family: "Montserrat";  
+}
+.imgSbrDiv, .imgSbr{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.historia{
+    display: flex;
+}
+
+.elas img{
+    width: 570px;
+    height: 500px;
+    margin: 20px;
+    
+}
+
+div h2{
+    padding: 5px;
+    font-family: "Montserrat";
+    margin-left: 20px;
+}
+.elas{
+    width: 1200px;
+    display: flex;
+
+}
+
+.elas1 img{
+    width: 570px;
+    height: 500px;
+    margin: 20px;
+}
+
+.elas1{
+    display: flex;
+    width: 100%;
+}
+
+
+@media(max-width: 760px){
+    .histudo{
+        width: 100%;
+
+    }
+    .historia{
+        flex-direction: column-reverse;
+    }
+    .imgSbrDiv{
+        margin: auto;
+        width: 80%;
+    }
+    .imgSbr{
+        width: 100%;
+        height: 500px;
+        margin: auto;
+    }
+    .fase{
+        text-align: center;
+    }
+    .font1{
+        display: none;
+    }
+    .font{
+        position: inherit;
+        text-align: center;
+        margin: auto;
+    }
+}

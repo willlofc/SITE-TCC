@@ -1,0 +1,103 @@
+.prod0 h1{
+    color: #bb6363;
+    font-size: 50px;
+    margin-left: 80px;
+    margin: 20px;
+    font-family: "Montserrat";
+   
+}
+
+
+.prod0 img{
+    width: 570px;
+    height: 300px;
+    margin: 20px;
+    
+}
+
+
+div h2{
+    padding: 5px;
+    font-family: "Montserrat";
+    margin-left: 20px;
+}
+.prod{
+    width: 1200px;
+    margin: auto;
+
+}
+
+.prod div{
+    align-items: center;
+    text-align: center;
+}
+
+.tcc0{
+    display: flex;
+    width: 100%;
+}
+.prod0{
+    width: 1200px;
+}
+
+.tcc{
+    display: flex;
+    width: 100%;
+}
+
+.Video{
+    width: fit-content;
+    margin: auto;
+}
+
+.font2 {
+    font-size: 80px !important;
+    text-align: center !important;
+    color: #BB6363 !important;
+    margin-top: 100px !important;
+    margin-left: -113.28px !important;
+    left: 50% !important;
+    font-family: "Montserrat" !important;
+    position: absolute !important;
+}
+
+.font3{
+    margin: auto;
+    text-align: center;
+    font-size: 226px !important;
+    font-family: "Quentin" !important;
+    color: #f5b6b975 !important;
+}
+
+@media(max-width: 760px){
+    .tcc, .tcc0{
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .prod0{
+        width: 100%;
+        text-align: center;
+    }
+    .prod{
+        width: 80%;
+        margin: auto;
+
+    }
+    .prod div{
+        width: 100%;
+        align-items: center;
+    }
+    .prod0 img{
+        margin: 5px;
+    }
+    .tcc img, .tcc0 img{
+        width: 100%;
+    }
+    .tcc div, .tcc0 div{
+        margin: auto;
+    }
+    .Video{
+        display: none;
+    }
+}

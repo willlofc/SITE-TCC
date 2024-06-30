@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço das Manas</title>
+    <link rel="stylesheet" href="../CSS/pag_serviços/style.css">
+</head>
+
+<body>
+    <main class="tudo">
+
+        <header class="cabeçalho">
+            <div class="Titulo">
+                <img src="../CONTEUDO/logo2.2.jpg" onclick="restrito()">
+                <h3>ESPAÇO DAS MANAS</h3>
+            </div>
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="SobreNos.html">Sobre Nós</a></li>
+                    <li><a href="produtos.html">Serviços</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </nav>
+            <button id="btn-mobile">Menu
+                <span id="hamburguer"></span>
+            </button>
+        </header>
+
+        <section class="serviço">
+            <div class="imagem">
+                <img src="../CONTEUDO/ciliosimg.png" id="imagemgrande">
+            </div>
+
+            <div class="info">
+                <h3 id="nomeGrande">Extensão de cílos</h3>
+                <p class="preço" id="preçoGrande">R$30,00</p>
+                <p id="descriçãoGrande">Descriç.ão</p>
+                <span class="background">
+                    <a href="https://api.whatsapp.com/send/?phone=5511976749575&text&type=phone_number&app_absent=0" class="botão">
+                        <svg>
+                            <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                        </svg>
+                        AGENDAR
+                    </a>
+                </span>
+            </div>
+
+        </section>
+        <article>
+            <p class="outros">Outros Serviços</p>
+        </article>
+
+        <section class="sliderSelecionar">
+            <div class="selecionar">
+                <div id="caixa1" class="caixa1">
+                    <div class="card">
+                        <img src="../CONTEUDO/manicurebnt1.jpg" style="width:100%">
+                        <h1 class="um">MANICURE</h1>
+                        <p class="dois">Manicures regulares, gel colorido, francesinha e manicure infantil. O que você quiser, nós temos.</p>
+                        <p><button>AGENDE</button></p>
+                      </div>
+                </div>
+
+                <div id="caixa2" class="caixa2">
+                    <div class="card">
+                        <img src="../CONTEUDO/pebnt1.jpeg" style="width:100%">
+                        <h1 class="um">PEDICURE</h1>
+                        <p class="dois"> Os dedos dos pés também precisam de alguns cuidados. 
+                            <br><br>
+                        </p>
+                        <p><button>AGENDE</button></p>
+                      </div>
+                </div>
+
+
+                <div id="caixa3" class="caixa3">
+                    <div class="card">
+                        <img src="../CONTEUDO/sobrancelhaimg2.png" style="width:100%">
+                        <h1 class="um">SOBRANCELHA</h1>
+                        <p class="dois"> Escolha a sua preferência de cílios: c/henna, volume, glamour.
+                            <br><br>
+                        </p>
+                        <p><button>AGENDE</button></p>
+                      </div>
+                </div>
+
+                <div id="caixa4" class="caixa4">
+                    <div class="card">
+                        <img src="../CONTEUDO/ciliosbnt1.jpg" style="width:100%">
+                        <h1 class="um">CILÍOS</h1>
+                        <p class="dois"> Escolha a sua preferência de cílios: naturais, volume, glamour.
+                            <br><br>
+                        </p>
+                        <p><button>AGENDE</button></p>
+                      </div>
+                </div>
+        </section>
+
+
+
+        <footer>
+            <div class="container">
+                <img class="logoft" src="../CONTEUDO/logo png.png" alt="">
+                <div class="footer-section social-icons">
+                    <h2>Siga-nos</h2>
+                    <a href="https://www.instagram.com/espaco_manas2/"><img src="../CONTEUDO/instagram.png" alt=""></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5511976749575&text&type=phone_number&app_absent=0">
+                        <img src="../CONTEUDO/whatsapp.png" alt=""></a>
+                </div>
+                <div class="footer-section">
+                    <h2>Sobre Nós</h2>
+                    <p>Somos uma empresa dedicada a oferecer os melhores produtos e serviços para nossos clientes.</p>
+                </div>
+                <div class="footer-section">
+                    <h2>Links Úteis</h2>
+                    <p><a href="../index.html">Home</a></p>
+                    <p><a href="SobreNos.html">Sobre</a></p>
+                    <p><a href="produtos.html">Serviços</a></p>
+
+                </div>
+                <div class="footer-section">
+                    <h2>Contato</h2>
+                    <p>Email: manasvaidosas123@gmail.com</p>
+                    <p>Telefone: (11) 97674-9575</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+<script src="../JS/pag_servico.js"></script>
+<script src="../JS/cabeçalho_responsivo.js"></script>
+<script>
+    function restrito(){
+        window.location.href = 'login.html'
+    }
+</script>
+</html>

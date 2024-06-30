@@ -1,0 +1,162 @@
+.info{
+    display: flex;
+    margin-top: 30px;
+    width: 900px;
+    margin: 1rem auto;
+    font-family: Montserrat;
+}
+.info h3{
+    font-size: 50px;
+    color: #BB6363;
+}
+.info p{
+    width: 500px;
+    margin: 10px;
+    font-size: larger;
+}
+.card{
+    width: 400px;
+    height: 300px;
+    background-image: url(../../CONTEUDO/WhatsApp\ Image\ 2024-06-19\ at\ 10.41.25.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    border-radius: 10px;
+}
+
+.info button {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #BB6363;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .info button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .info button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .info button:hover span {
+    padding-right: 25px;
+  }
+  
+  .info button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* SERVIÇOS */
+
+.serviços{
+    display: flex;
+    margin-top: 30px;
+    width: 900px;
+    margin: 1rem auto;
+    font-family: Montserrat;
+}
+
+.serviços h3{
+    font-size: 50px;
+    color: #BB6363;
+}
+.serviços p{
+    width: 500px;
+    margin: 10px;
+    font-size: larger;
+}
+
+.serviços button {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #BB6363;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .serviços button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .serviços button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .serviços button:hover span {
+    padding-right: 25px;
+  }
+  
+  .serviços button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.card2{
+    width: 400px;
+    height: 300px;
+    background-image: url(../../CONTEUDO/Serviçosindex.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -60px;
+    border-radius: 10px;
+}
+
+@media(max-width: 760px){
+    .info, .serviços{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .info p, .serviços p{
+        width: 100%;
+        padding: 1rem;
+    }
+    #texto1, #texto2{
+        width: 100%;
+        padding: 10px;
+    }
+    .card, .card2{
+        margin: auto;
+    }
+    .serviços h3, .info h3{
+        text-align: center;
+    }
+
+    .serviços button, .info button{
+        width: 100%;
+        font-size: 30px;
+    }
+
+}

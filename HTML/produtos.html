@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço das Manas - serviços</title>
+    <link rel="stylesheet" href="../CSS/PRODUTOS/style.css">
+
+
+</head>
+
+<body>
+
+    <main class="tudo">
+        <header class="cabeçalho">
+            <div class="Titulo">
+                <img src="../CONTEUDO/logo2.2.jpg" onclick="restrito()">
+                <h3>ESPAÇO DAS MANAS</h3>
+            </div>
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="SobreNos.html">Sobre Nós</a></li>
+                    <li><a href="produtos.html">Serviços</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </nav>
+            <button id="btn-mobile">Menu
+                <span id="hamburguer"></span>
+            </button>
+        </header>
+
+        <section>
+            <div class="banner">
+                <h1>NOSSOS SERVIÇOS</h1>
+            </div>
+        </section>
+
+        <section class="produtos">
+            <h1 class="font">O Que Nós Oferecemos</h1>
+            <h1 class="font1">Nós Oferecemos</h1>
+
+            <div class="amar">
+
+                <div id="caixa1" onclick="abrirPagina(1)">
+                    <img src="../CONTEUDO/manicurebnt.jpg" alt="">
+                    <div class="desc"><b>MANICURE</b></div>
+                </div>
+
+                <div id="caixa2" onclick="abrirPagina(2)">
+                    <img src="../CONTEUDO/pebnt.jpeg" alt="">
+                    <div class="desc"><b>PEDICURE</b></div>
+                </div>
+            </div>
+
+            <div class="beleza">
+
+                <div id="caixa3" onclick="abrirPagina(3)">
+                    <img src="../CONTEUDO/sobrancelhaimg2.png" alt="">
+                    <div class="desc"><b>SOBRANCELHA</b></div>
+                </div>
+
+                <div id="caixa4" onclick="abrirPagina(4)">
+                    <img src="../CONTEUDO/ciliosbnt.jpg" alt="">
+                    <div class="desc"><b>CÍLIOS</b></div>
+                </div>
+
+        </section>
+
+        <section class="curso">
+            <h1 class="font2">Nosso Curso</h1>
+            <h1 class="font3">Nosso Curso</h1>
+            <div class="pedro">
+
+                <div class="imagemgrande">
+                    <img class="imagemsalao4" src="../CONTEUDO/Inserir um título.png">
+                    <h2> Curso de Nail Designer</h2>
+                    <h2>Fibra de Vidro + Gel na Tips + Certificado e Apostila</h2>
+                </div>
+
+                <div id='mobileflex'>
+                    <div class="aside">
+                        <img src="../CONTEUDO/certificado2.jfif" alt="">
+                        <h2>Aluna Nayara</h2>
+                        <h2>Formada 01/04/2024</h2>
+                    </div>
+                    <div class="aside">
+                        <img src="../CONTEUDO/curod crt.png" alt="">
+                        <h2>Aluna Dayana</h2>
+                        <h2>Formada 21/03/2022</h2>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="container">
+                <img class="logoft" src="../CONTEUDO/logo png.png" alt="">
+                <div class="footer-section social-icons">
+                    <h2>Siga-nos</h2>
+                    <a href="https://www.instagram.com/espaco_manas2/"><img src="../CONTEUDO/instagram.png" alt=""></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5511976749575&text&type=phone_number&app_absent=0">
+                        <img src="../CONTEUDO/whatsapp.png" alt=""></a>
+                </div>
+                <div class="footer-section">
+                    <h2>Sobre Nós</h2>
+                    <p>Somos uma empresa dedicada a oferecer os melhores produtos e serviços para nossos clientes.</p>
+                </div>
+                <div class="footer-section">
+                    <h2>Links Úteis</h2>
+                    <p><a href="../index.html">Home</a></p>
+                    <p><a href="SobreNos.html">Sobre</a></p>
+                    <p><a href="produtos.html">Serviços</a></p>
+
+                </div>
+                <div class="footer-section">
+                    <h2>Contato</h2>
+                    <p>Email: manasvaidosas123@gmail.com</p>
+                    <p>Telefone: (11) 97674-9575</p>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+</body>
+<script src="../JS/produtos.js"></script>
+<script src="../JS/cabeçalho_responsivo.js"></script>
+<script>
+    function restrito(){
+        window.location.href = 'login.html'
+    }
+</script>
+</html>

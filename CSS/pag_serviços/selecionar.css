@@ -1,0 +1,80 @@
+.selecionar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selecionar img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.outros {
+    padding: 50px;
+    color: #BB6363;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: "Montserrat";
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicionando transição */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Ampliando o card */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3); /* Ajustando a sombra durante o hover */
+}
+
+.um, .dois {
+    padding: 12px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #BB6363;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+
+@media(max-width: 760px) {
+    .selecionar {
+        width: 100%;
+        gap: 20px;
+        overflow-x: scroll;
+        justify-content: space-between;
+    }
+
+    .outros {
+        width: 100%;
+        margin: auto;
+    }
+
+    .caixa1:hover,
+    .caixa2:hover,
+    .caixa3:hover,
+    .caixa4:hover {
+        scale: 1;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+}
